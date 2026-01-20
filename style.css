@@ -1,0 +1,17 @@
+h1 {
+    color:#134e1a;
+}
+
+body {
+    background-color:#363636;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 1400px;
+    border: 1px solid #134e1a;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+  }
