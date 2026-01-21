@@ -1,5 +1,6 @@
 h1 {
     color:#134e1a;
+    font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -8,10 +9,52 @@ body {
 
 #wrapper {
     margin: 1em auto;
-    padding: 0;
+    padding: 5px;
     width: 1400px;
-    border: 1px solid #134e1a;
+    border: 10px solid #134e1a;
+    border-style:ridge;
     background-color: #ffffff;
     text-align: center;
-    font-family: "Outfit", sans-serif;
+    
+  }
+
+  .header2
+  {
+    font-family: "Gabarito", sans-serif;
+    line-height: 0.2
+  }
+
+  p{
+    font-family: "Afacad", sans-serif;
+    padding: 15px;
+  }
+
+  li{
+    display: inline-block;
+    padding: 0;
+  margin: 10px;
+  width: 310px;
+  height: 163px;
+font-size: 100px;
+  }
+
+  .custom-item1{
+    background-image: url('USA.png');
+    background-repeat: no-repeat; 
+  background-position:center; /* Centers the image vertically */
+
+  }
+
+  .custom-item2{
+    background-image: url('Canada.webp');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 310px 163px; 
+  }
+  
+  .custom-item3{
+    background-image: url('UK.webp');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 310px 163px; 
   }
