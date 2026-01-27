@@ -1,0 +1,55 @@
+
+
+#lights{
+    margin: 1em auto;
+    padding: 0px;
+    width: 1200px;
+    border: 10px #ffe343;
+    border-style:dotted;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+    animation: light-flicker 3s linear infinite;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+@keyframes light-flicker {
+  0%   {color:black;}
+  50%  {color:#ffe343;}
+  100% {color:#000000;}
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+#block{
+    display: flex
+}
+h2{
+    font-family: "Bowlby One SC", sans-serif;
+    text-align: center;
+    padding: 0px;
+}
+
+#q1{
+margin: 1em auto;
+    padding: 0px;
+    width: 400px;
+    border: 10px #ffe343;
+    border-style:dotted;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+img {
+  filter: blur(100px);
+  transition: filter 0.1s linear;
+  width:250px;
+  height:250px;
+}
+
+img:hover {
+  filter: blur(0);
+}
