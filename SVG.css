@@ -1,0 +1,33 @@
+#oceanSVG{
+    width: 1850px;
+    display: block;
+}
+
+#K {
+  animation: kfade 5.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+
+#T {
+  animation: tfade 5.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#C {
+  animation: cfade 5.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, 0);}
+  100% { transform: translate(0, 400px);}
+}
