@@ -11,6 +11,10 @@
     font-size: 100px;
     animation: light-flicker 3s linear infinite;
     font-family: "Bowlby One SC", sans-serif;
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 @keyframes light-flicker {
@@ -21,6 +25,7 @@
 
 body{
     background-image: url(background.jpg);
+    
 }
 
 #block{
@@ -43,6 +48,28 @@ margin: 1em auto;
     font-family: "Bowlby One SC", sans-serif;
 }
 
+#q2{
+margin: 1em auto;
+    padding: 0px;
+    width: 400px;
+    border: 10px #ffe343;
+    border-style:dotted;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+#q3{
+margin: 1em auto;
+    padding: 0px;
+    width: 400px;
+    border: 10px #ffe343;
+    border-style:dotted;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
 img {
   filter: blur(100px);
   transition: filter 0.1s linear;
@@ -52,4 +79,9 @@ img {
 
 img:hover {
   filter: blur(0);
+}
+
+#mainimg {
+  width: 100%;
+  margin-bottom: 1rem;
 }
